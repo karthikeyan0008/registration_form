@@ -1,0 +1,37 @@
+body{
+    background: rgb(145, 39, 39);
+}
+#container
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin:auto ;
+  width: 500px;
+  height: 600px;
+  background-color:rgb(87, 16, 16);
+  border-radius: 15px;
+}
+#heading
+{
+    height: 50px;
+    color:red;
+    text-align: center;
+    display: flex;
+    width :400px;
+    font-style: normal;
+    font-size:medium;
+    font-family: sans-serif;
+}
+form
+{
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-left: 25%;
+justify-content: space-between;
+}
+input[type="text"] 
+{
+    width: 200px;
+}
